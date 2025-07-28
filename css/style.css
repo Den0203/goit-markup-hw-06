@@ -214,8 +214,8 @@ img {
   max-width: 1440px;
   margin: 0 auto;
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 72px;
+  padding-bottom: 72px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -230,6 +230,7 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+
 @media (min-resolution: 192dpi) {
   .hero-container {
     background-image: linear-gradient(
@@ -965,6 +966,9 @@ img {
   }
 }
 .modal-form-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: transparent;
   width: 16px;
   height: 16px;
@@ -1068,9 +1072,6 @@ img {
   margin-bottom: auto;
 }
 
-.mobile-menu-item {
-}
-
 .mobile-menu-link {
   font-weight: 700;
   font-size: 36px;
@@ -1092,8 +1093,6 @@ img {
   gap: 24px;
 }
 
-.contacts-item {
-}
 .contacts-link {
   font-weight: 500;
   font-size: 20px;
