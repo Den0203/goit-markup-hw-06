@@ -555,13 +555,14 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 24px;
+  gap: 48px;
   padding: 0;
 }
 @media only screen and (min-width: 767.99px) {
   .portfolio-list {
     flex-direction: row;
     row-gap: 72px;
+    column-gap: 24px;
   }
 }
 @media only screen and (min-width: 1158px) {
